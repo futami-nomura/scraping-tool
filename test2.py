@@ -7,6 +7,7 @@ import pickle
 import hashlib
 import sha3
 
+# このモジュールの起動を調べないとダメかもしれない
 from googleapiclient.discovery import build
 
 
