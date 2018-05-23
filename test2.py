@@ -1,7 +1,3 @@
-$ pip install --upgrade google-api-python-client
-
-$ python3 google_api.py
-
 #-*- coding:utf-8 -*-
 import urllib.request
 import httplib2
