@@ -98,7 +98,7 @@ if __name__ == '__main__':
 
     page_limit = 10
     search_word = '稲'
-    save_dir_path = 'image'
+    save_dir_path = './image'
 
     correspondence_table = {}
 
