@@ -1,3 +1,4 @@
+
 #-*- coding:utf-8 -*-
 import urllib.request
 import httplib2
@@ -10,6 +11,11 @@ import sha3
 # このモジュールの起動を調べないとダメかもしれない
 from googleapiclient.discovery import build
 
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+gauth = GoogleAuth()
+gauth.CommandLineAuth()
+drive = GoogleDrive(gauth)
 
 def make_dir(path):
     if not os.path.isdir(path):
