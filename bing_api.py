@@ -18,7 +18,7 @@ mkt = "ja-JP"   # 取得元の国コード
 num_per = 6    # リクエスト回数（count * num_per=取得画像数）
 offset = math.floor(count / num_per)    # ループ回数
  
-subscriptionKey="dd1ee91136764475b3c23d30b850a4cb"    # Bing Search API Key
+subscriptionKey=""    # Bing Search API Key
  
 headers = {'Ocp-Apim-Subscription-Key':subscriptionKey}
  
